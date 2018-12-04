@@ -26,7 +26,7 @@ class MultiplicationServiceImpl implements MultiplicationService {
 
     @Override
     public boolean checkAttempt(MultiplicationResultAttempt resultAttempt) {
-        return false;
+        return resultAttempt
     }
 
 

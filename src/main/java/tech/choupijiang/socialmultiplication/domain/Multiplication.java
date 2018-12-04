@@ -7,11 +7,10 @@ import lombok.*;
 @Getter
 @ToString
 @EqualsAndHashCode
-@Data
 public final class Multiplication {
 
-    private  final int factorA;
-    private  final int factorB;
+    private final int factorA;
+    private final int factorB;
 
     Multiplication() {
         this(0, 0);
