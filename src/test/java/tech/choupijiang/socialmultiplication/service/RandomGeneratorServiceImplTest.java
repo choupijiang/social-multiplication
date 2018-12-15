@@ -2,6 +2,9 @@ package tech.choupijiang.socialmultiplication.service;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.MockitoAnnotations;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -11,11 +14,14 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class RandomGeneratorServiceImplTest {
 
-    private RandomGeneratorServiceImpl randomGeneratorServiceImpl;
+
+    private RandomGeneratorService randomGeneratorServiceImpl;
 
     @Before
     public void setUp() {
         randomGeneratorServiceImpl = new RandomGeneratorServiceImpl();
+
+
     }
 
     @Test

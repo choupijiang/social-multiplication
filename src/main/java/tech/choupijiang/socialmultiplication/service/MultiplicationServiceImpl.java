@@ -24,10 +24,10 @@ class MultiplicationServiceImpl implements MultiplicationService {
         return new Multiplication(factorA, factorB);
     }
 
-    @Override
-    public boolean checkAttempt(MultiplicationResultAttempt resultAttempt) {
-        return resultAttempt
-    }
+//    @Override
+//    public boolean checkAttempt(MultiplicationResultAttempt resultAttempt) {
+//        return resultAttempt;
+//    }
 
 
 }

@@ -14,6 +14,6 @@ public interface MultiplicationService {
      */
     Multiplication createRandomMultiplication();
 
-    boolean checkAttempt(final MultiplicationResultAttempt resultAttempt);
+//    boolean checkAttempt(final MultiplicationResultAttempt resultAttempt);
 
 }
